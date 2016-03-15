@@ -18,7 +18,7 @@ import javax.servlet.ServletRegistration.Dynamic;
 import java.io.IOException;
 
 public class WebAppInitializer implements WebApplicationInitializer {
-    String basicConfig = "classpath:/Setup.properties";
+    String basicConfig = "classpath:/setup.properties";
 	public void onStartup(ServletContext servletContext) throws ServletException {
 
         AnnotationConfigWebApplicationContext ctx = new AnnotationConfigWebApplicationContext();
